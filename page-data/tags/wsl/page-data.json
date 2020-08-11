@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tag-page-js","path":"/tags/wsl/","result":{"data":{"site":{"siteMetadata":{"title":"step"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/22/"},"frontmatter":{"title":"WSL 配置 and Terminal 美化"}}}]}},"pageContext":{"tag":"wsl"}}}
