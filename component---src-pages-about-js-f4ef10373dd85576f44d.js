@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"3XHS":function(t,e,n){"use strict";n.r(e);n("q1tI");var o=n("aArQ"),a=n("qKvR");e.default=function(t){var e=t.location;return Object(a.a)(o.a,{location:e},Object(a.a)("h1",null,"A student!"),Object(a.a)("p",null,"Life is good."),Object(a.a)(NoStyleLink,{to:"/codestep"},Object(a.a)("h1",null,"My Notes")))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-f4ef10373dd85576f44d.js.map
