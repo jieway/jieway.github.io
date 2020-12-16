@@ -69,7 +69,8 @@
         <a><img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black&labelColor=f7df1e" alt="copyright"/></a>
         <a><img src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white" alt="copyright"/></a>
 
-        </br>&ensp;&ensp;&ensp;&ensp;
+        <br/>
+        &ensp;&ensp;&ensp;&ensp;
         <a><img src="https://img.shields.io/badge/Visual%20Studio%20Code-%23007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="copyright"/></a>
         <a><img src="https://img.shields.io/badge/git-%23f05032.svg?&style=for-the-badge&logo=git&logoColor=white" alt="copyright"/></a>
 
