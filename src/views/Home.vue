@@ -27,6 +27,7 @@
 -->
  
     </div>
+
     <div class="article">
       <h2>👋 Hi there </h2>
       &ensp;&ensp;&ensp;&ensp;还没想好怎么写，先放着。
@@ -64,6 +65,11 @@
         <li>🔭 <b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
       </ul>
       -->
+
+      <h2>🧐 Current</h2>
+          &ensp;&ensp;&ensp;&ensp;
+          最近忙于期末考试，正在学习编译原理，概率论中。
+          打算做一个玩具编译器🎯。
 
       <h2>🔨 Languages and Tools</h2>
           &ensp;&ensp;&ensp;&ensp;
