@@ -10,9 +10,14 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
+      <a id="blog" href="https://cs.weijiew.com" target="_blank" rel="noopener noreferrer"
+        ><img class="title-font" src="./../assets/images/hero.png" />Notes</a
+      >
+      <span>/</span>
       <a id="blog" href="https://blog.weijiew.com" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
+
 
 <!--
       <span>/</span>
