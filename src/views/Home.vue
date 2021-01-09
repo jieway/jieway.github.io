@@ -68,7 +68,7 @@
 
       <h2>🧐 Current</h2>
           &ensp;&ensp;&ensp;&ensp;
-          最近忙于期末考试，正在学习编译原理（🎯 CS144），概率论中。
+          2021.01.15 之前把 cs61a 做完。（终于有自主学习的时间了！��）
       <h2>🔨 Languages and Tools</h2>
           &ensp;&ensp;&ensp;&ensp;
         <a><img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white" alt="copyright"/></a>   
