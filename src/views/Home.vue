@@ -68,7 +68,8 @@
 
       <h2>🧐 Current</h2>
           &ensp;&ensp;&ensp;&ensp;
-          2021.01.15 之前把 cs61a 做完。（终于有自主学习的时间了！😜）
+          2021.01.30 学习计组&CSAPP
+          2021.01.14 cs61a 部分完结。
       <h2>🔨 Languages and Tools</h2>
           &ensp;&ensp;&ensp;&ensp;
         <a><img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white" alt="copyright"/></a>   
