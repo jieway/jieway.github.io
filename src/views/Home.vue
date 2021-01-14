@@ -68,7 +68,8 @@
 
       <h2>🧐 Current</h2>
           &ensp;&ensp;&ensp;&ensp;
-          2021.01.30 学习计组&CSAPP，</br>
+          2021.01.30 学习计组&CSAPP。</br>
+          &ensp;&ensp;&ensp;&ensp;
           2021.01.14 cs61a 部分完结。
       <h2>🔨 Languages and Tools</h2>
           &ensp;&ensp;&ensp;&ensp;
