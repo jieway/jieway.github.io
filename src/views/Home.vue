@@ -53,9 +53,14 @@
 
       <h2>📫 How to reach me</h2>
       <ul>
+          
       &ensp;&ensp;
-            <a href="mailto:jiewei314@gmail.com"><img src="https://img.shields.io/badge/email-jiewei314@gmail.com-blueviolet?style=for-the-badge&logo=google&color=fd79a8" alt="copyright"/></a>
+      <a href="mailto:jiewei314@gmail.com"><img src="https://img.shields.io/badge/email-jiewei314@gmail.com-blueviolet?style=for-the-badge&logo=google&color=fd79a8" alt="copyright"/></a>
+    
       </ul>
+
+      <h2><span id="busuanzi_container_site_pv"> 🤖 views: <span id="busuanzi_value_site_pv" style="color:black" ></span></span></h2>
+
     </div>
   </div>
 </template>
