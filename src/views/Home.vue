@@ -2,7 +2,7 @@
   <div class="container">
     <div id="name-container">
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>Weijiew</h1>
+      <h1>weijiew</h1>
     </div>
     <div class="title-desc-container">
 
@@ -17,60 +17,26 @@
       <a id="blog" href="https://blog.weijiew.com" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
-
-
-<!--
-      <span>/</span>
-      <a id="sspai" href="https://sspai.com/u/spencerwoo/posts" target="_blank" rel="noopener noreferrer"
-        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
-      >
--->
- 
     </div>
 
     <div class="article">
       <h2>👋 Hi there </h2>
-      &ensp;&ensp;&ensp;&ensp;还没想好怎么写，先放着。
-
-      <!--
       <p>
-        I'm <i>Spencer Woo</i> with the ID <i>spencerwoo</i>. Some other variations:
-        <a href="https://twitter.com/realSpencerWoo" target="_blank" rel="noopener noreferrer">@realSpencerWoo</a> /
-        <a href="https://weibo.com/spencerwoo" target="_blank" rel="noopener noreferrer">@SpencerWoo</a> /
-        <a href="https://github.com/spencerwooo" target="_blank" rel="noopener noreferrer">@spencerwooo</a>. You may
-        know me from GitHub / Jike / SSPAI or other places. Yes, those are also me.
+          &ensp;&ensp;&ensp;&ensp;
+          My Chinese name is <i>Wei Jie</i>, ID is <i>weijiew</i>.
+      I am a student of Data Science and Big Data Technology, 
+      currently in my junior year (2021). 
+      I am preparing for my graduate exams in 2022, and I like running and reading. 
       </p>
-      -->
-      <!--
-      <h2>Academics</h2>
-      <ul>
-        <li>
-          🍭 Fresh graduate at 🇨🇳
-          <a href="http://www.bit.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Institute of Technology</a
-          >, <i>BSc in Computer Science</i>. Currently a research assistant at Data & AI security Lab, BIT.
-        </li>
-        <li>
-          🙇 Prospective student at 🇬🇧
-          <a href="https://www.gla.ac.uk/" target="_blank" rel="noopener noreferrer">the University of Glasgow</a>,
-          1/2021 entry,
-          <i
-            ><a
-              href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >MSc in Computing Science</a
-            ></i
-          >.
-        </li>
-        <li>🔭 <b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
-      </ul>
-      -->
 
       <h2>🧐 Current</h2>
+          <p>
           &ensp;&ensp;&ensp;&ensp;
-          2021.01.30 学习计组&CSAPP。</br>
-          &ensp;&ensp;&ensp;&ensp;
-          2021.01.14 cs61a 部分完结。
+          I am currently working on CS144 and will be implementing a TCP. 
+          During the winter break, I plan to do CS:APP labs, OSTEP, Python VM and 408, and advanced math. 
+          In the meantime, I will take some notes 
+          <a href="http://github.com/weijiew/codestep"> here.</a> ✍
+          </p>
       <h2>🔨 Languages and Tools</h2>
           &ensp;&ensp;&ensp;&ensp;
         <a><img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white" alt="copyright"/></a>   
