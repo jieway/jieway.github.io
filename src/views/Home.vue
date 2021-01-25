@@ -33,7 +33,7 @@
           <p>
           &ensp;&ensp;&ensp;&ensp;
           I am currently working on CS144 and will be implementing a TCP. 
-          During the winter break, I plan to do CS:APP labs, OSTEP, Python VM and 408, and advanced math. 
+          During the winter break, I plan to do CS:APP labs, OSTEP, Python VM, and advanced math. 
           In the meantime, I will take some notes 
           <a href="http://github.com/weijiew/codestep"> here.</a> ✍
           </p>
