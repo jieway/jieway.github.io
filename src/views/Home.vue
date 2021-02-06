@@ -29,7 +29,7 @@
       I am preparing for my graduate exams in 2022, and I like running and reading. 
       </p>
 
-      <h2>🧐 Current</h2>
+      <h2>🧐 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
           I am currently working on CS144 and will be implementing a TCP. 
