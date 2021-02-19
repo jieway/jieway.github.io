@@ -28,6 +28,13 @@
       currently in my junior year (2021). 
       I am preparing for my graduate exams in 2022, and I like running and reading. 
       </p>
+      <p>
+      &ensp;&ensp;&ensp;&ensp;
+      If you want to keep up with all my activity, 
+      you can follow me on <a href="http://github.com/weijiew"> github </a>. 
+      Or if you want to keep up with my blog updates, 
+      you can watch this <a href="http://github.com/weijiew/blog"> repository</a>.
+      </p>
 
       <h2>🧐 Currently</h2>
           <p>
