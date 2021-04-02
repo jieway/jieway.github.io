@@ -39,10 +39,7 @@
       <h2>🧐 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
-          I've recently been writing a <a href="http://github.com/weijiew/lsbasi"> pascal interpreter 🤯.</a> 
-          During the winter break, I plan to do CS:APP labs, OSTEP, and advanced math. 
-          In the meantime, I will take some notes 
-          <a href="http://github.com/weijiew/codestep"> here.</a> ✍
+          I've been studying for a review of operating systems and data structures, and I'm finishing up 6.828 by the way. 
           </p>
 
       <h2>🔨 Languages and Tools</h2>
