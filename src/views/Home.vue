@@ -39,7 +39,7 @@
       <h2>🧐 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
-          I've been studying for a review of operating systems and data structures, and I'm finishing up 6.828 by the way. 
+          I have recently been studying CS:APP, 6.S081 and CS144.
           </p>
 
       <h2>🔨 Languages and Tools</h2>
