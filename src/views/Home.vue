@@ -2,7 +2,7 @@
   <div class="container">
     <div id="name-container">
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>weijiew</h1>
+      <h1>Jie Wei</h1>
     </div>
     <div class="title-desc-container">
 
@@ -23,7 +23,7 @@
       <h2>😎 Hi there </h2>
       <p>
           &ensp;&ensp;&ensp;&ensp;
-          My Chinese name is <i>Wei Jie</i>, ID is <i>weijiew</i>.
+          My Chinese name is <i>Jie Wei</i>, ID is <i>weijiew</i>.
       I am a student of Data Science and Big Data Technology, 
       currently in my junior year (2021). 
       I am preparing for my graduate exams in 2022, and I like <a href="http://running.weijiew.com"> running </a> and reading. 
