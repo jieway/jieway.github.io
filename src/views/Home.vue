@@ -23,7 +23,7 @@
       <h2>😎 Hi there </h2>
       <p>
           &ensp;&ensp;&ensp;&ensp;
-          My Chinese name is <i>Jie Wei</i>, ID is <i>weijiew</i>.
+          My Chinese name is <i>Jie Wei</i>, ID is <i>wije</i>.
       I am a student of Data Science and Big Data Technology, 
       currently in my junior year (2021). 
       I am preparing for my graduate exams in 2022, and I like <a href="http://running.weijiew.com"> running </a> and reading. 
@@ -36,10 +36,31 @@
       you can watch this <a href="http://github.com/weijiew/blog"> repository</a>.
       </p>
 
+      <h2>🎉 Curriculum Vitae (pdf 还没写好，先写点关键字占位置，后续加一个zh页面)</h2>
+          <p>
+          &ensp;&ensp;&ensp;&ensp;
+            ✍️ 科研：
+          </p>
+          <p>
+          &ensp;&ensp;&ensp;&ensp;
+            😍 项目：
+          </p>
+
+          <p>
+          &ensp;&ensp;&ensp;&ensp;
+            🥲 竞赛：蓝桥杯国优，数模省二
+          </p>
+
+          <p>
+          &ensp;&ensp;&ensp;&ensp;
+            🚀 学习成绩：国家励志奖学金(2021)，Rank 1/46 (2021)，校级奖学金(2019)
+          </p>
+
       <h2>🤩 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
           I have recently been studying CS:APP, 6.S081 and CS144.
+
           </p>
 
       <h2>🔨 Languages and Tools</h2>
