@@ -20,7 +20,7 @@
     </div>
 
     <div class="article">
-      <h2>👋 Hi there </h2>
+      <h2>😎 Hi there </h2>
       <p>
           &ensp;&ensp;&ensp;&ensp;
           My Chinese name is <i>Wei Jie</i>, ID is <i>weijiew</i>.
@@ -36,7 +36,7 @@
       you can watch this <a href="http://github.com/weijiew/blog"> repository</a>.
       </p>
 
-      <h2>🧐 Currently</h2>
+      <h2>🤩 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
           I have recently been studying CS:APP, 6.S081 and CS144.
@@ -70,7 +70,7 @@
         <img alt="MySQL" src="https://img.shields.io/badge/mysql%20-%23F00000.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
 
 
-      <h2>📫 How to reach me</h2>
+      <h2>📬 How to reach me</h2>
       <ul>
           
       &ensp;&ensp;
