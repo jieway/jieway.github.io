@@ -36,14 +36,17 @@
       you can watch this <a href="http://github.com/weijiew/blog"> repository</a>.
       </p>
 
-      <h2>🎉 Curriculum Vitae (pdf 还没写好，先写点关键字占位置，后续加一个zh页面)</h2>
+      <!-- <h2>🎉 Curriculum Vitae (pdf 还没写好)</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
-            ✍️ 科研：
+              🎯 科研：Lei You, <i>Jie Wei*</i>, Xiaojun Liang, Minghua Lou, Yong Pang,and Xinyu Song.            <br>
+              &ensp;&ensp;&ensp;&ensp;&ensp;<i>Comparison of Numerical Calculation Methods for Stem Diameter Retrieval Using  <br>
+              &ensp;&ensp;&ensp;&ensp;&ensp;Terrestrial Laser Data</i>. Remote Sensing (JCR1/ IF4.8 / 中科院二区)
           </p>
+
           <p>
           &ensp;&ensp;&ensp;&ensp;
-            😍 项目：
+            😍 项目：CS144/CS186/6.S081/CS61b/c/        
           </p>
 
           <p>
@@ -56,6 +59,7 @@
             🚀 学习成绩：国家励志奖学金(2021)，Rank 1/46 (2021)，校级奖学金(2019)
           </p>
 
+ -->
       <h2>🤩 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
