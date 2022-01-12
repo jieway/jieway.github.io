@@ -10,11 +10,11 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
-      <a id="blog" href="https://cs.weijiew.com" target="_blank" rel="noopener noreferrer"
+      <a id="blog" href="https://codestep-weijiew.vercel.app/" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/hero.png" />Notes</a
       >
       <span>/</span>
-      <a id="blog" href="https://blog.weijiew.com" target="_blank" rel="noopener noreferrer"
+      <a id="blog" href="https://blog-weijiew.vercel.app/" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
     </div>
