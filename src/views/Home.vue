@@ -26,7 +26,7 @@
           My Chinese name is <i>Jie Wei</i>, ID is <i>wije</i>.
       I am a student of Data Science and Big Data Technology, 
       currently in my junior year (2021). 
-      I am preparing for my graduate exams in 2022, and I like <a href="http://running.weijiew.com"> running </a> and reading. 
+      I am preparing for my graduate exams in 2022, and I like <a href="https://running-page-git-master-weijiew.vercel.app/"> running </a> and reading. 
       </p>
       <p>
       &ensp;&ensp;&ensp;&ensp;
