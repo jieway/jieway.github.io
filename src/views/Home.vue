@@ -63,7 +63,7 @@
       <h2>🤩 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
-          I have recently been studying CS:APP, 6.S081 and CS144.
+          I have recently been studying 6.S081.
 
           </p>
 
