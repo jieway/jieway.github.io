@@ -23,48 +23,18 @@
       <h2>😎 Hi there </h2>
       <p>
           &ensp;&ensp;&ensp;&ensp;
-          My Chinese name is <i>Jie Wei</i>, ID is <i>wije</i>.
-      I am a student of Data Science and Big Data Technology, 
-      currently in my junior year (2021). 
-      I am preparing for my graduate exams in 2022, and I like <a href="https://running-page-git-master-weijiew.vercel.app/"> running </a> and reading. 
-      </p>
-      <p>
-      &ensp;&ensp;&ensp;&ensp;
-      If you want to keep up with all my activity, 
-      you can follow me on <a href="http://github.com/weijiew"> github </a>. 
-      Or if you want to keep up with my blog updates, 
-      you can watch this <a href="http://github.com/weijiew/blog"> repository</a>.
+          My Chinese name is <i>Jie Wei</i>, ID is <i>everystep</i>.
+          If you want to keep up with all my activity, 
+          you can follow me on <a href="http://github.com/weijiew"> github </a>. 
+          Or if you want to keep up with my blog updates, 
+          you can watch this <a href="http://github.com/weijiew/blog"> repository</a>.
       </p>
 
-      <!-- <h2>🎉 Curriculum Vitae (pdf 还没写好)</h2>
-          <p>
-          &ensp;&ensp;&ensp;&ensp;
-              🎯 科研：Lei You, <i>Jie Wei*</i>, Xiaojun Liang, Minghua Lou, Yong Pang,and Xinyu Song.            <br>
-              &ensp;&ensp;&ensp;&ensp;&ensp;<i>Comparison of Numerical Calculation Methods for Stem Diameter Retrieval Using  <br>
-              &ensp;&ensp;&ensp;&ensp;&ensp;Terrestrial Laser Data</i>. Remote Sensing (JCR1/ IF4.8 / 中科院二区)
-          </p>
 
-          <p>
-          &ensp;&ensp;&ensp;&ensp;
-            😍 项目：CS144/CS186/6.S081/CS61b/c/        
-          </p>
-
-          <p>
-          &ensp;&ensp;&ensp;&ensp;
-            🥲 竞赛：蓝桥杯国优，数模省二
-          </p>
-
-          <p>
-          &ensp;&ensp;&ensp;&ensp;
-            🚀 学习成绩：国家励志奖学金(2021)，Rank 1/46 (2021)，校级奖学金(2019)
-          </p>
-
- -->
       <h2>🤩 Currently</h2>
           <p>
           &ensp;&ensp;&ensp;&ensp;
-          I have recently been studying 6.S081.
-
+          I have recently been studying 6.828.
           </p>
 
       <h2>🔨 Languages and Tools</h2>
