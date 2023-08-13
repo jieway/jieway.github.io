@@ -1,5 +1,5 @@
 ---
-title: 'MIT6.S081 2020 总结'
+title: 'MIT6.S081 2020 Notes'
 date: '2022-03-09'
 ---
 

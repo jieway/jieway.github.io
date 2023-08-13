@@ -1,5 +1,5 @@
 ---
-title: 'MIT6.830 2021'
+title: 'MIT6.830 2021 Notes'
 date: '2022-01-28'
 ---
 

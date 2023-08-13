@@ -3,10 +3,10 @@
   "private": true,
   "engines": {"node": "12.x || 14.x"},
   "description": "every step",
-  "version": "1.0.0",
+  "version": "2.1.4",
   "author": "Jie Wei<jiewei1999@foxmail.com>",
   "bugs": {
-    "url": "https://github.com/weijiew/blog/issues"
+    "url": "https://github.com/weijiew/wiejiew.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
