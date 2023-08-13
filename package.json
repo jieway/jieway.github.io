@@ -9,7 +9,7 @@
     "url": "https://github.com/weijiew/wiejiew.github.io/issues"
   },
   "dependencies": {
-    "gatsby": "^2.0.76",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-ebook": "^1.0.2",
     "gatsby-plugin-feed": "^2.0.8",
