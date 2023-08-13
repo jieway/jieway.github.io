@@ -1,35 +1,5 @@
-# info
+# every step
 
+Write some thoughts and summaries.
 
-
-
-
-## Project setup
-
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-
-```
-yarn run build
-```
-
-### Run your tests
-
-```
-yarn run test
-```
-
-### Lints and fixes files
-
-```
-yarn run lint
-```
+The theme of the blog originates from [overreacted.io](https://overreacted.io/).

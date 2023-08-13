@@ -1,0 +1,141 @@
+---
+title: 'WSL 配置 and Terminal 美化'
+date: '2020-08-11'
+cta: 'WSL'
+---
+
+# 概述
+
+如果你的笔记本是 windows 平台，你想试试 linux 系统，你会怎么办？
+
+在这之前搜索一番之后首选的肯定是虚拟机了。继续搜索于是 VMWare 和 VirtualBox 两款产品出现了。
+
+然后发现 VirtualBox 吐槽的人比较多，并且 VWare 比较容易破解，于是就去找教程开始了破解安装之旅。
+
+事实也确实如此。因为我大一就是这样一路走下来的，当时大概花了一个星期才装好😭。并且安装 VMware + Ubuntu 步骤比较繁琐，需要不少时间的摸索。
+
+现在多了一个选择 WSL (Windows Subsystem for Linux) 这个东西可以简单粗暴的理解在 Windows 系统中内嵌了一个 Linux 子系统。
+
+那和虚拟机有什么区别？最大的区别就是性能的开销了，可以不需要耗费太大性能的前提下使用 Linux 系统。林林总总还有许多方便的功能，例如可以在 Linux 中直接运行 exe 文件。我觉得最吸引我的地方就是安装方便，开箱即用。
+
+当然除此之外，我认为最方便的还是配置的简化，安装 Ubuntu 只花费了几分钟的时间。使用起来也很方便，而 VMWare 打开关闭则有明显的停顿。
+
+关于 WSL [微软的文档](https://docs.microsoft.com/en-us/windows/wsl/) 有更为详细的解释。
+
+# 安装
+
+下面的安装步骤不会写的太详细，网上相关文章很多。这篇文章仅仅是提供一些路径以及我配置过程中认为有用的资料和踩到的坑。
+
+* Windows Terminal 是微软提供的终端工具，可以直接在微软应用商店搜索 Terminal 。
+
+<div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811220045.png"/></div>
+
+
+**Terminal** 和 **bash** 是不同的，前者是终端，也就是常见的黑框框。而 bash 则是命令行解释器，在终端中敲入命令，由 bash 来解释。在终端中通过 bash 来和操作系统进行交互。
+
+* WSL 安装，可以直接[参考这篇文章](https://zhuanlan.zhihu.com/p/34885182)。
+
+* Linux 发行版可以直接应用商店搜索 Linux 也可以[点击](https://aka.ms/wslstore)这个页面一键直达。我选择的是 Ubuntu 20.04 LTS 。
+
+<div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811220301.png"/></div>
+
+此时就已经安装完毕了，一个 Ubuntu 几分钟就配置好了。（注：这个命令需要下载一个工具 `sudo apt install neofetch`）
+
+<div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811222200.png"/></div>
+
+# Terminal 美化
+
+`ctrl + ,` 可以直接打开设置，是通过 JSON 数据格式设置的。如果你用过 vscode 会很属性这种设置方式。
+
+找打 schemes 修改内容即可，注意修改后也要在对应的 colorScheme 中设置对应的 name ，不然无效。
+
+```cpp
+    "schemes": [
+        {
+            "name": "Dracula",
+            "black": "#000000",
+            "red": "#ff5555",
+            "green": "#50fa7b",
+            "yellow": "#f1fa8c",
+            "blue": "#bd93f9",
+            "purple": "#ff79c6",
+            "cyan": "#8be9fd",
+            "white": "#bbbbbb",
+            "brightBlack": "#555555",
+            "brightRed": "#ff5555",
+            "brightGreen": "#50fa7b",
+            "brightYellow": "#f1fa8c",
+            "brightBlue": "#bd93f9",
+            "brightPurple": "#ff79c6",
+            "brightCyan": "#8be9fd",
+            "brightWhite": "#ffffff",
+            "background": "#1e1f29",
+            "foreground": "#f8f8f2"
+          }
+    ],
+```
+
+以 PowerShell 为例,修改其中对应选项即可。
+
+```cpp
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false,
+                "colorScheme": "Dracula",
+                "acrylicOpacity": 0.4,
+                "cursorColor" : "#a29bfe",
+                "fontFace": "Cascadia Code PL",
+                "useAcrylic": true
+
+```
+
+美化可以直接参考这篇[文章](https://dowww.spencerwoo.com/1.2/2-cli/2-1-terminal.html#windows-terminal)。主要是[参考](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)这个，这个[辅助](https://sspai.com/post/52868)。
+
+总之终端美化后我感觉一般，而且比较费时间。下图是我的最终效果，注意需要修改字体不然乱码！
+
+<div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811223609.png"/></div>
+
+我采用的字体是微软推荐的 [Cascadia Code PL](https://github.com/microsoft/cascadia-code/releases) 。注意下载得到的是一堆字体包从倒数第二个文件夹中找到安装即可。看清楚全称，文件夹中的其他字体依旧乱码。
+
+# 其他
+
+## 迁移
+
+Ubunut 实际上是默认安装在了 C 盘中，由于我不希望在 C 盘中安装太多软件，于是进行了迁移，将子系统迁移到了 E 盘中。
+
+可以参考这篇文章 [WSL 迁移](https://blog.csdn.net/Jioho_chen/article/details/103988647) ，[LxRunOffline](https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.4.0/LxRunOffline-v3.4.0.zip) 这是其中涉及到的一个工具，我采用的是 3.4.0 版本的，最新的版本和教程中的步骤不一致。注意安装对应版本！
+
+## 文件系统
+
+二者的文件系统的共用的，例如回退到根目录就会发现一个 Ubuntu 的文件目录。并且在 mnt 中可以看多 c/d/e/f 盘。
+
+<div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811224815.png"/></div>
+
+并且注意，在此系统中是无法访问其本身的文件位置。也就是在 win 中，文件位于 E 盘（迁移前位于 C 盘），在 wsl 中是无法访问这些文件的。
+
+## 端口
+
+二者公用端口，但是同等条件下 win 的优先级更高，毕竟是人家的地盘。但因为共用端口也存在很大的问题！
+
+## SSH
+
+在 terminal 使用 ssh 远程链接服务器挺方便的，不需要下载 Xshell （我已经卸了）。这是目前的感受 🍢 。
+
+在 /home/{username} 目录下的连接服务方式。
+
+```bash
+ssh -i .ssh/wsl.pem root@47.93.36.15
+```
+
+<div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811225906.png"/></div>
+
+并且通过 scp 也可以传输文件，就不需要 FTP 了。注意要用绝对路径！
+
+```bash
+scp -r -i [pem 文件位置] [待传输的文件] root@47.93.36.15:[发送到服务器的位置]
+```
+
+# 参考
+
+* [Dev on Windows with WSL](https://dowww.spencerwoo.com/)
+* [WSL——Win10的Linux子系统](https://zhuanlan.zhihu.com/p/34885203)
