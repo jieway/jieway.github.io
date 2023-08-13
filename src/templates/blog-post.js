@@ -18,7 +18,7 @@ import {
 } from '../utils/i18n';
 
 const GITHUB_USERNAME = 'weijiew';
-const GITHUB_REPO_NAME = 'blog';
+const GITHUB_REPO_NAME = 'weijiew.github.io';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif`;
@@ -137,7 +137,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://overreacted.io${enSlug}`
+      `https://weijiew.github.io${enSlug}`
     )}`;
 
     return (
@@ -181,27 +181,30 @@ class BlogPostTemplate extends React.Component {
                   Discuss on Twitter
                 </a> */}
                 {` • `}
+
+                <script
+                  src="https://giscus.app/client.js"
+                  data-repo="weijiew/weijiew.github.io"
+                  data-repo-id="MDEwOlJlcG9zaXRvcnkyOTk0Nzk4NDg="
+                  data-category="Announcements"
+                  data-category-id="DIC_kwDOEdmzKM4COJO9"
+                  data-mapping="title"
+                  data-reactions-enabled="1"
+                  data-emit-metadata="0"
+                  data-input-position="bottom"
+                  data-theme="light"
+                  data-lang="zh-CN"
+                  crossorigin="anonymous"
+                  async
+                ></script>
+
+
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
                   Edit on GitHub
                 </a>
               </p>
             </footer>
 
-            <script
-              src="https://giscus.app/client.js"
-              data-repo="weijiew/blog"
-              data-repo-id="MDEwOlJlcG9zaXRvcnkyOTk0Nzk4NDg="
-              data-category="Announcements"
-              data-category-id="DIC_kwDOEdmzKM4COJO9"
-              data-mapping="title"
-              data-reactions-enabled="1"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light"
-              data-lang="zh-CN"
-              crossorigin="anonymous"
-              async
-            ></script>
           </article>
         </main>
 
