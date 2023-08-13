@@ -137,7 +137,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://weijiew.github.io${enSlug}`
+      `https://overreacted.io${enSlug}`
     )}`;
 
     return (

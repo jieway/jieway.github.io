@@ -21,7 +21,7 @@
       "headers": { "cache-control": "public, max-age=0, must-revalidate" }
     }
   ],
-  "alias": "weijiew.github.io",
+  "alias": "overreacted.io",
   "builds": [
     { "use": "@now/static-build", "src": "package.json", "config": { "distDir": "public" } }
   ]
