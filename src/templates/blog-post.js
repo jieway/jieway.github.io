@@ -177,29 +177,10 @@ class BlogPostTemplate extends React.Component {
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <footer>
               <p>
-                {/* <a href={discussUrl} target="_blank" rel="noopener noreferrer">
+                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
                   Discuss on Twitter
-                </a> */}
+                </a>
                 {` • `}
-
-                <script src="https://giscus.app/client.js"
-                  data-repo="weijiew/weijiew.github.io"
-                  data-repo-id="MDEwOlJlcG9zaXRvcnkyNTI2NDQ2NDA="
-                  data-category="[在此输入分类名]"
-                  data-category-id="[在此输入分类 ID]"
-                  data-mapping="pathname"
-                  data-strict="0"
-                  data-reactions-enabled="1"
-                  data-emit-metadata="0"
-                  data-input-position="bottom"
-                  data-theme="preferred_color_scheme"
-                  data-lang="zh-CN"
-                  data-loading="lazy"
-                  crossorigin="anonymous"
-                  async>
-                </script>
-
-
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
                   Edit on GitHub
                 </a>
