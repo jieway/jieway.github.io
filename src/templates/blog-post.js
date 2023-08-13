@@ -182,21 +182,22 @@ class BlogPostTemplate extends React.Component {
                 </a> */}
                 {` • `}
 
-                <script
-                  src="https://giscus.app/client.js"
+                <script src="https://giscus.app/client.js"
                   data-repo="weijiew/weijiew.github.io"
-                  data-repo-id="MDEwOlJlcG9zaXRvcnkyOTk0Nzk4NDg="
-                  data-category="Announcements"
-                  data-category-id="DIC_kwDOEdmzKM4COJO9"
-                  data-mapping="title"
+                  data-repo-id="MDEwOlJlcG9zaXRvcnkyNTI2NDQ2NDA="
+                  data-category="[在此输入分类名]"
+                  data-category-id="[在此输入分类 ID]"
+                  data-mapping="pathname"
+                  data-strict="0"
                   data-reactions-enabled="1"
                   data-emit-metadata="0"
                   data-input-position="bottom"
-                  data-theme="light"
+                  data-theme="preferred_color_scheme"
                   data-lang="zh-CN"
+                  data-loading="lazy"
                   crossorigin="anonymous"
-                  async
-                ></script>
+                  async>
+                </script>
 
 
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
