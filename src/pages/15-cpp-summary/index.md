@@ -8,7 +8,7 @@ cta: 'CPP'
 
 以下内容为第一次阅读《C++ Prime Plus》所记的笔记。做了部分删减，前十一章的内容。内容有点混乱。仅供参考！
 
-除此之外还有这个[视频](https://www.bilibili.com/video/BV1et411b73Z)，看了三天。顺便把案例写了一遍，[repo](https://github.com/weijiew/cpp-study-cases)。
+除此之外还有这个[视频](https://www.bilibili.com/video/BV1et411b73Z)，看了三天。顺便把案例写了一遍，[repo](https://github.com/rainjw/cpp-study-cases)。
 
 最后的那两个项目不想做了，写下来估计得几千行，后续有时间再做吧。最近 C++ 学的有点过头，先缓缓。
 

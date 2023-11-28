@@ -10,7 +10,7 @@ cta: '编译原理'
 
 内容涵盖了词法分析，语法分析，语义分析，递归下降分析，抽象语法树（AST），作用域，函数，报错信息，调用栈等内容。这是我目前能想到的，除此之外里面有很多细节不写代码是体会不到的。
 
-我的代码：[repo](https://github.com/weijiew/lsbasi) 。
+我的代码：[repo](https://github.com/rainjw/lsbasi) 。
 
 为什么不写 C 编译器，而是写 Pascal ？ 
 
@@ -206,7 +206,7 @@ class Interpreter():
 
 这样做的目的本质上是为了保证所写代码符合定义的文法。也就是来验证是否符号文法定义，否则就不按照该分支走。目前的文法很简单没有分支，所以感受不到存在的意义。但后续的文法会很复杂，存在多个分支，验证就显得很有必要了。现在不理解也无妨，继续做下去就明白了。
 
-完整代码：[part1](https://github.com/weijiew/lsbasi/blob/main/part1/calc1.py) 。
+完整代码：[part1](https://github.com/rainjw/lsbasi/blob/main/part1/calc1.py) 。
 
 > 至此 PART 1 结束，建议打开 IDE 自己顺着逻辑写一遍，应该会存在一些问题，重点关注这些问题！
 
@@ -325,7 +325,7 @@ class Interpreter(object):
         return Token(EOF, None)
 ```
 
-完整代码可参考：[calc2.py](https://github.com/weijiew/lsbasi/blob/main/part2/calc2.py)
+完整代码可参考：[calc2.py](https://github.com/rainjw/lsbasi/blob/main/part2/calc2.py)
 
 > 以上就能够处理多位整数加减法，跳过空格的功能。
 > 但是目前只能处理两个整数加减法，无法处理多个整数加减法！例如 1 + 2 + 3 + 4 。
@@ -424,7 +424,7 @@ $$
 
 知晓这个语法规则后，增加一个 expr 函数即可。该函数的逻辑和 term 函数几乎一样，只不过是处理加减法。可以尝试着自己写，然后回头比对，很简单！
 
-实现：[calc5.py](https://github.com/weijiew/lsbasi/blob/main/part5/calc5.py) 。
+实现：[calc5.py](https://github.com/rainjw/lsbasi/blob/main/part5/calc5.py) 。
 
 # Part 6
 
@@ -448,7 +448,7 @@ $$
 
 至此已经遇到递归下降分析了，之前感觉很难的东西没想到这么简单。其实就是一堆函数嵌套，写好文法改成函数即可。
 
-实现：[calc6.py](https://github.com/weijiew/lsbasi/blob/main/part6/calc6.py) 。
+实现：[calc6.py](https://github.com/rainjw/lsbasi/blob/main/part6/calc6.py) 。
 
 # Part 7 
 
@@ -474,7 +474,7 @@ $$
 
 输入一个简单的例子然后以 debug 一遍就明白了，例如 5 + 6 。
 
-直接看代码吧：[spi.py](https://github.com/weijiew/lsbasi/blob/main/part7/spi.py)
+直接看代码吧：[spi.py](https://github.com/rainjw/lsbasi/blob/main/part7/spi.py)
 
 这一节增加了访问者模式，采用访问者模式来遍历 AST 。
 
@@ -496,7 +496,7 @@ $$
 我是在 win10 下用 pycharm 写代码的，但是 win10 安装 free pascal 后出现了不兼容的问题。
 我担心在配环境上花费太多时间于是采用 WSL 来编译代码。也就是 Ubuntu 20.04 LTS ，装一个 Pascal 解释器就好了，一行命令搞定。这点不重要，只是验证代码结果而已。Pascal 的编译环境用纠结，可以略过。
 
-代码：[part8](https://github.com/weijiew/lsbasi/blob/main/part8/spi.py) 。
+代码：[part8](https://github.com/rainjw/lsbasi/blob/main/part8/spi.py) 。
 # Part 9 
 
 我在写代码的时候感觉自己写的代码很乱，有必要看一下 Python 代码规范。
