@@ -101,4 +101,4 @@ Log File:
 
 ## code
 
-这个分支是 [bitcask](https://github.com/rainjw/abysskv/tree/bitcask) 的最简单实现，只有 set 和 get 以及数据恢复功能以及相应的测试代码。bitask 分支不会做任何改动，而 main 分支会集成所有的功能，而其他分支都是试验田，用于验证想法，有效后才会合并到 main 分枝上。
+这个分支是 [bitcask](https://github.com/weijiew/abysskv/tree/bitcask) 的最简单实现，只有 set 和 get 以及数据恢复功能以及相应的测试代码。bitask 分支不会做任何改动，而 main 分支会集成所有的功能，而其他分支都是试验田，用于验证想法，有效后才会合并到 main 分枝上。

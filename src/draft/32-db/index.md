@@ -30,7 +30,7 @@ TupleDesc（元组描述）是数据库中用于描述表结构的元数据对�
 
 TupleDesc用于确保数据库系统能够正确解释和处理表中的数据，从而支持各种数据库操作，如查询、插入、更新和删除。
 
-这个[commit](https://github.com/rainjw/abyssdb/commit/5e90349c3dc8895c53ed26aa43f314f6bd7306a5)
+这个[commit](https://github.com/weijiew/abyssdb/commit/5e90349c3dc8895c53ed26aa43f314f6bd7306a5)
 已经实现了 TupleDesc 部分的代码。
 
 
@@ -53,7 +53,7 @@ TupleDesc和Tuple之间的关系可以这样描述：
 
 那么对于该表的每一行数据（Tuple），它会包含一个整数、一个字符串和一个日期值，每个字段的顺序和类型都与TupleDesc中的定义相对应。TupleDesc确保了数据库系统可以正确地操作和查询这个表的数据。
 
-这个 [commit](https://github.com/rainjw/abyssdb/commit/6132819e8abe8d566e8c11f9ca342ce7df40795c) 已经完善了 tuple 和 tuple desc 。
+这个 [commit](https://github.com/weijiew/abyssdb/commit/6132819e8abe8d566e8c11f9ca342ce7df40795c) 已经完善了 tuple 和 tuple desc 。
 
 ## Record ID
 
@@ -71,6 +71,6 @@ Record ID（记录标识符）的主要用途是唯一标识数据库表中的�
 
 总之，Record ID是记录的独特标识符，用于快速访问、保持数据完整性、支持索引和建立数据关系。
 
-实现： [code](https://github.com/rainjw/abyssdb/commit/9126782f2cb5d10c13fca975bbcfa7c217b8a938) 。
+实现： [code](https://github.com/weijiew/abyssdb/commit/9126782f2cb5d10c13fca975bbcfa7c217b8a938) 。
 
 

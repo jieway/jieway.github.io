@@ -3,7 +3,7 @@ module.exports = {
     title: 'every step',
     author: 'Jie Wei',
     description: 'Personal blog by Jie Wei.',
-    siteUrl: 'https://blog-rainjw.vercel.app/',
+    siteUrl: 'https://blog-weijiew.vercel.app/',
     social: {
       twitter: '@',
     },

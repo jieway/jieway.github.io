@@ -6,7 +6,7 @@
   "version": "2.1.4",
   "author": "Jie Wei<jiewei1999@foxmail.com>",
   "bugs": {
-    "url": "https://github.com/rainjw/wiejiew.github.io/issues"
+    "url": "https://github.com/weijiew/wiejiew.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -48,7 +48,7 @@
     "glob": "^7.1.3",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://rainjw.github.io",
+  "homepage": "https://weijiew.github.io",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
@@ -58,7 +58,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) rainjw.github.io",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) weijiew.github.io",
     "dry": "yarn build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"
   },
