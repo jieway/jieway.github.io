@@ -29,7 +29,7 @@ class Footer extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          github
+          Github
 
         </a>{' '}
         &bull;{' '}
