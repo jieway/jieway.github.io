@@ -1,6 +1,7 @@
 ---
-title: 'CMU 15-445 (fall 21)'
-date: '2022-03-17'
+title: 'CMU 15-445 (fall 23)'
+date: '2023-12-27'
 ---
 
-https://craftinginterpreters.com/
+https://15445.courses.cs.cmu.edu/fall2023/schedule.html
+
