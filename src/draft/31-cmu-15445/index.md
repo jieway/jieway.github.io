@@ -1,5 +1,5 @@
 ---
-title: 'CMU 15-445 (fall 23)'
+title: 'CMU 15-445 (fall 23) 通关记录'
 date: '2023-12-27'
 ---
 
