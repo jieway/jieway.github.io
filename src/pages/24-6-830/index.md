@@ -9,7 +9,7 @@ date: '2022-01-28'
 
 课程主页：http://dsg.csail.mit.edu/6.830/
 
-顺便把实验手册翻译了一遍，都在这个[仓库](https://github.com/weijiew/codestep)里面。
+顺便把实验手册翻译了一遍，都在这个[仓库](https://github.com/jieway/codestep)里面。
 
 # lab1
 
@@ -175,7 +175,7 @@ getPage() 表示从磁盘中读取一个 Page 。首先根据输入的参数获�
 
 具体流程如下图：根节点是 6 是一个内部页，两个指针分别指向了叶子页。如果输入 1 那么 findLeafPage() 应当返回第一个叶子页。如果输入 8 那么应当返回第二个叶子页。如果输入 6 此时左右叶子页都含有 6 ，函数应当返回第一个叶子页，也就是左边的叶子页。
 
-![20220322234018](https://cdn.jsdelivr.net/gh/weijiew/pic/images/20220322234018.png)
+![20220322234018](https://cdn.jsdelivr.net/gh/jieway/pic/images/20220322234018.png)
 
 实现 findLeafPage 函数，这是一个递归函数。具体来说就递归查找一个值，需要区分页类型。
 
@@ -259,7 +259,7 @@ flushPage() 方法表示将页写入磁盘中，增加写入日志的操作，�
 <<<<<<< HEAD
 对于未提交的事务：使用before-image对其进行恢复，对于已提交的事务：使用after-image对其进行恢复。
 
-![20220318134954](https://cdn.jsdelivr.net/gh/weijiew/pic/images/20220318134954.png)
+![20220318134954](https://cdn.jsdelivr.net/gh/jieway/pic/images/20220318134954.png)
 
 =======
 对于未提交的事务：使用before-image对其进行恢复，对于已提交的事务：使用after-image对其进行恢复。
