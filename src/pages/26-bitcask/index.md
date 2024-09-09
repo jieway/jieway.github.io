@@ -4,6 +4,7 @@ date: '2023-08-07'
 ---
 
 Bitcask通过日志结构化的设计,实现了一个简单、高效的键值存储系统,可以达到低延迟、高吞吐量、崩溃安全、易备份等设计目标。
+
 # 实现
 
 花了几个小时写了一个最小的能跑的版本，没想到 bitcask 这么简单。可以直接参考论文 [Bitcask A Log-Structured Hash Table for Fast Key/Value Data](https://riak.com/assets/bitcask-intro.pdf) ，读完论文后就能写了。首先研究数据在磁盘上是如何组织的，然后研究如何写入，写入后如何查询，启动时如何恢复旧数据，按照这个顺序就能够实现啦。
@@ -99,6 +100,4 @@ Log File:
 
 参考 boltdb 的 B+ 树模块。
 
-## code
-
-这个分支是 [bitcask](https://github.com/jieway/abysskv/tree/bitcask) 的最简单实现，只有 set 和 get 以及数据恢复功能以及相应的测试代码。bitask 分支不会做任何改动，而 main 分支会集成所有的功能，而其他分支都是试验田，用于验证想法，有效后才会合并到 main 分枝上。
+> 此前是用 go 写的，时隔一年，这次用现代 C++ 重写了一遍，并发还不完善 ：https://github.com/jieway/abysskv 
